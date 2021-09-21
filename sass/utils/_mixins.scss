@@ -1,0 +1,7 @@
+@import "./variables";
+
+@mixin pad{
+    @media screen and(min-width: map-get($breakpoints, pad)){
+        @content;
+    }
+}
